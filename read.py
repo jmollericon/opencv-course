@@ -8,7 +8,7 @@ cv.imshow('Cat', img)
 img2 = cv.imread('resources/photos/cat_large.jpg')
 cv.imshow('Cat (large image)', img2)
 
-#reading videos
+# reading videos
 capture = cv.VideoCapture('resources/videos/dog.mp4')
 while True:
   isTru, frame = capture.read()
